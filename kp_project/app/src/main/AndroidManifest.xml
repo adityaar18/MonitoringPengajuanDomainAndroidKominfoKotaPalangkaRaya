@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aditya.pengajuanapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logokominfo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logokominfo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kp_project">
+        <activity
+            android:name=".ChartPengajuan"
+            android:exported="false"
+            android:label="@string/title_activity_chart_pengajuan"
+            android:theme="@style/Theme.Kp_project.NoActionBar" />
+        <activity
+            android:name=".PertanyaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Kp_project.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MonitorPembutanAplikasiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonitoringAplikasiLuarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonitoringAplikasiResmiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StatusWebsiteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StatusPengajuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PengajuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Kp_project.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

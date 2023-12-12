@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_tanggal_monitor"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/tanggal_monitoring"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_nama_perangkat"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nama_perangkat_daerah"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_kategori_instansi"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/kategori_instansi"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_nama_subdomain"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nama_sub_domain"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_nama_web_aplikasi"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nama_web_aplikasi"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_deskripsi"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/deskripsi_web_aplikasi"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_hosting"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/hosting"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_domain"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/domain"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_ip_address"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/ip_address"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_metode"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/metode"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_keterangan"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/keterangan"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_update"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/update_terakhir"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_versi"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/versi_mobile"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_catatan"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/catatan"
+        android:textSize="18sp"/>
+</LinearLayout>

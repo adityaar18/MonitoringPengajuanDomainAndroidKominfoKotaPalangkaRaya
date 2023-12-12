@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_tanggal_pengajuan"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/tanggal_waktu_pengajuan_form"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_perangkat"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nama_perangkat"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_kategori"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/kategori_perangkat_daerah"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_jenis"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/jenis_permohonan"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_no_surat"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nomor_surat"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_tanggal"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/tanggal_surat"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_file"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/file_surat"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_nama_subdomain"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nama_sub_domain"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_nama_judul"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nama_judul_website_aplikasi"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_desk"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/deskripsi"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_spek_hosting"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/spesfikasi_hosting"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_hosting"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/hosting"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_domain"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/domain"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_ip_address"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/ip_address"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_metode"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/metode"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_spek_web"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/spesifikasi_web_aplikasi"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_nama"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nama"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_nomor"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/nomor_hp_wa"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_email"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/email"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_status"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:background="@drawable/table_content_cell_bg"
+        android:text="@string/status"
+        android:textSize="18sp"/>
+</LinearLayout>
